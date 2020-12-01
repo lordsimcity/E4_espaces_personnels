@@ -1,0 +1,17 @@
+{
+    "name": "dendo_jitensha/login_module",
+    "description": "Module permettant la connexion d'un utilisateur.",
+    "authors": [
+        {
+            "name": "Damien",
+            "email": "lasson.damienpro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Connection\\ConnectionChecks\\": "./class/Informations/",
+            "Connection\\DatabaseHandling\\": "./class/DatabaseHandling/"
+        }
+    },
+    "require": {}
+}

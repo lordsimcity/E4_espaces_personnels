@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <title>Inscription</title>
+</head>
+<body>
+  <div class="shadow-lg w-50 p-3 mb-5 bg-white rounded">
+    <form action="./php/registrationValidation.php" method="POST">
+      
+      <div class="d-flex justify-content-center position-relative mt-5">
+        <img src="./img/logo_dendo_jitensha.png" width="250px" alt="Dendō jitensha">
+      </div>
+      <h4>Création de compte :</h4>
+      <br>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="firstname">First name</label>
+          <input type="text" class="form-control" id="firstname" name="firstName" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="lastname">Last name</label>
+          <input type="text" class="form-control" id="lastname" name="lastName" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" name="userEmail" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputPassword4">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" name="password" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputPassword4">Confirm your password</label>
+          <input type="password" class="form-control" id="inputPassword4" name="passwordVerify" required>
+        </div>
+      </div>
+      <div class="g-recaptcha" data-sitekey="6LdZCvUZAAAAAJke49Yn9N02MI0FXAgFqKQUzpN0"></div>
+      </br>
+      <div class="box_btn">
+          <a type="submit" class="btn " href="../Connexion/connection.html">Déja inscrit ? Connecte toi !</a>
+          <button type="submit" class="btn">Inscription</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
