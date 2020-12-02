@@ -6,10 +6,10 @@ use PDO;
 use Registration\Informations\RegistrationInformations;
 
 /**
- * La classe DataBaseManager permettra de manipuler les données présentes dans la BDD
+ * La classe DatabaseManager permettra de manipuler les données présentes dans la BDD
  */
 
-class DataBaseManager {
+class DatabaseManager {
 
     private $_dbConnection;
 
