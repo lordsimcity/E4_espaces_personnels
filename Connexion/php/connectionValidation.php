@@ -29,6 +29,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
 
         if (password_verify($connectionInformations->getUserPassword(),$res['password'])) {
 
+            $_SESSION['idUser'] = $res['idUsers'];
             $_SESSION['lastName'] = $res['lastName'];
             $_SESSION['firstName'] = $res['firstName'];
             $_SESSION['userEmail'] = $res['userEmail'];

@@ -62,6 +62,8 @@
 
   <hr class="hr">
   <a href="../Connexion/php/logout.php">> Se déconnecter </a>
+  <a href="../../PanierV2/basket.php">> Voir mon panier </a>
+  <a href="../../PanierV2/products.php">> Voir les produits </a>
   </body>
   <script src="script.js" type="text/javascript"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
